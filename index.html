@@ -41,7 +41,7 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="date">Last updated: October 14, 2026</p>
+  <p class="date">Last updated: October 16, 2026</p>
 
   <div class="summary">
     <p><b>In short:</b> Form Filler fills web forms with details you save in your browser. Your profiles stay on your computer. The extension does nothing on a page until you click it. We don't show ads, sell data or track what you browse.</p>
@@ -55,7 +55,7 @@
   </ul>
 
   <h2>What is sent to our server, and when</h2>
-  <p>Some features use AI on our server at <mark class="todo">api.DOMAIN</mark>. They work only after you click Fill, use the keyboard shortcut or the right-click menu, or paste text yourself. <i>Use AI</i> is on by default and can be turned off in Settings; then nothing leaves your browser.</p>
+  <p>Some features use AI on our server. They work only after you click Fill, use the keyboard shortcut or the right-click menu, or paste text yourself. <i>Use AI</i> is on by default and can be turned off in Settings; then nothing leaves your browser.</p>
   <table>
     <thead><tr><th>When</th><th>What is sent</th><th>What is never sent</th></tr></thead>
     <tbody>
@@ -65,11 +65,12 @@
       <tr><td>Fill from text</td><td>The text you paste and descriptions of the fields on the page</td><td>The page address</td></tr>
     </tbody>
   </table>
-  <p>Each request also carries a random installation ID, used only to apply daily limits. It isn't linked to your name, email or device, and <i>Delete all data</i> replaces it with a new one. Your IP address is used only in memory to stop abuse and is not saved.</p>
+  <p>Each request also carries a random installation ID, used only to apply daily limits. It isn't linked to your name, email or device, and <i>Delete all data</i> replaces it with a new one.</p>
 
   <h2>What our server keeps</h2>
-  <p>Our server doesn't save the field descriptions, options or text it receives. For each request it keeps only a technical log line: the time, which feature was used, whether it worked, how long it took and how many AI tokens it used.</p>
-  <p>To answer, our server passes the request to an AI model hosted by <mark class="todo">MODEL HOST — to confirm, and that it does not store requests</mark>. The server is located in <mark class="todo">COUNTRY</mark>.</p>
+  <p>The field descriptions, options and text you send are used only to answer that request. Neither our server nor the AI model that processes the request stores them.</p>
+  <p>For each request the server keeps only a technical log line: the time, which feature was used, whether it worked, how long it took and how many AI tokens it used.</p>
+  <p>To apply the daily limits, the server counts requests per installation ID and per IP address. It stores only one-way hashes of them that change every day, never the ID or the IP itself, and deletes these counters within 24 hours.</p>
 
   <h2>What we don't do</h2>
   <ul>
